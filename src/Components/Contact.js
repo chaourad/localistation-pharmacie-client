@@ -112,7 +112,7 @@ console.log(pharmacyRequest)
         <br></br>
         <div  className='flex flex-row space-x-4'> 
         <label className='w-16'>image </label>
-        <input type="number" className= "bg-dashBlack  block w-full p-2.5 outline-none border border-gray-700 text-sm py-2 px-3 rounded-md " value={image} onChange={(e) => setImage(e.target.value)} required />
+        <input type="text" className= "bg-dashBlack  block w-full p-2.5 outline-none border border-gray-700 text-sm py-2 px-3 rounded-md " value={image} onChange={(e) => setImage(e.target.value)} required />
        
         </div> <br/>
        <div className="flex flex-col space-y-2  col-span-2">
