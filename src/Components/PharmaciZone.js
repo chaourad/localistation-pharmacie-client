@@ -85,7 +85,7 @@ function PharmaciZone() {
               <div className="flex items-center">
                 <div className="ml-4 text-center">
                 <div key={item.image} className='slide'>
-                        <img src={item.image} alt="" className='slide-image h-15 ' />
+                        <img src={item.image} alt="" className='slide-image h-20 ' />
                     </div>
                   <p className="text-lg font-medium text-gray-900">{item.nom}</p>
                   <p className="text-xs font-sans text-gray-900">{item.adresse}</p>
