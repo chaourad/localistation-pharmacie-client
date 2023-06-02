@@ -137,7 +137,7 @@ const handleClick = () => {
                    ))}
                </select>
            </div>
-           <button onClick={handleClick}  style={{height:38 ,borderRadius:5}}>cliquer</button>
+           <button onClick={handleClick}  style={{height:38 ,borderRadius:5}}>Chercher</button>
           </div>
         </div>
       </div>
