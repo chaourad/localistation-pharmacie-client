@@ -77,7 +77,6 @@ const {user} = useContext(UserContext);
            
             </Routes>
           </div>
-          <Footer />
         </BrowserRouter>
       </header>
     </div>
