@@ -84,14 +84,14 @@ function LoginForm() {
               placeholder="Mot de passe"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="block w-full px-4 py-2 mt-2 text-green-300 bg-white border rounded-md focus:border-green-600 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="block w-full px-4 py-2 mt-2 text-blue-400 bg-white border rounded-md focus:border-blue-700 focus:ring-green-300focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
 
           <div className="mt-6">
             <button
-              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform  rounded-md hover:bg-green-300 focus:outline-none focus:bg-green-300"
-              style={{ background: '#a6d5cc' }}
+                className="block w-full px-4 py-2 mt-2 text-blue-400 bg-white border rounded-md focus:border-blue-700 focus:ring-green-300focus:outline-none focus:ring focus:ring-opacity-40"
+                style={{ background: "#97C9E0" }}
             >
               Login
             </button>
