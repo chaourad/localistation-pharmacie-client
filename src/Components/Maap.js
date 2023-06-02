@@ -27,13 +27,7 @@ useEffect(() => {
   });
 }, [villeId]);
 
-  const markers = [
-    {
-      gecode: [31.6360206, -8.0266687, 16],
-      popUp: "hello 1",
-    },
-   
-  ];
+  
   const customIcon = new Icon({
     iconUrl: "https://cdn-icons-png.flaticon.com/512/3349/3349322.png",
     iconSize: [38, 38],
