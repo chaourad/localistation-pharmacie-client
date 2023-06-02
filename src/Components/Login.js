@@ -57,7 +57,7 @@ function LoginForm() {
 
   return (
     <div className="relative flex flex-col h-full">
-      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-blue-900  ring-2 ring-green-600 lg:max-w-xl" style={{ marginTop: '200px' }}>
+      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-blue-900  ring-2 ring-blue-600 lg:max-w-xl" style={{ marginTop: '200px' }}>
         <h1 className="text-3xl font-semibold text-center text-[#94a3b8] font-serif ">
           Connectez-vous à votre espace pharmacien
         </h1>
