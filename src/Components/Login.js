@@ -17,7 +17,7 @@ function LoginForm() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:8080/api/login', { email, password });
+      const response = await axios.post('https://api-backend-pharmacie-production.up.railway.app/api/login', { email, password });
 
       if (response.status === 200) {
         console.log(response.data);
