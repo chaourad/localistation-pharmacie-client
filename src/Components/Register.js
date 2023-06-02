@@ -72,7 +72,7 @@ function Register() {
       </div>
       <div className=" w-1/2 relative flex flex-col ">
         <div
-          className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-green-900  ring-2 ring-blue-700 lg:max-w-xl"
+          className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-blue-900  ring-2 ring-blue-700 lg:max-w-xl"
         
         >
           <h1 className="text-3xl font-semibold text-center text-[#94a3b8] font-serif ">
